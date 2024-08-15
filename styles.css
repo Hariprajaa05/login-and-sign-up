@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E2DAD6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 350px; /* Increased width for better spacing */
+    padding: 25px;
+    background-color: #F5EDED;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Slightly more shadow for depth */
+    border-radius: 12px; /* Softer corner radius */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px; /* Increased spacing for a balanced look */
+    color: #6482AD;
+    font-size: 24px; /* Slightly larger font size */
+}
+
+input {
+    width: 80%;
+    padding: 12px; /* Increased padding for better usability */
+    margin: 20px; /* More consistent spacing */
+    border: 1px solid #7FA1C3;
+    border-radius: 6px;
+    background-color: #E2DAD6;
+    color: #6482AD;
+    font-size: 16px; /* Increased font size for readability */
+}
+
+button {
+    width: 30%;
+    padding: 12px; /* Matching padding with input */
+    margin: 10px auto;
+    background-color: #6482AD;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px; /* Matching font size with input */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    display: block;
+}
+
+button:hover {
+    background-color: #7FA1C3;
+}
+
+.switch {
+    text-align: center;
+    margin-top: 20px; /* Increased spacing for clarity */
+    font-size: 14px; /* Slightly smaller font size for secondary text */
+    color: #6482AD;
+}
+
+.switch a {
+    color: #6482AD;
+    text-decoration: none;
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.switch a:hover {
+    text-decoration: underline;
+}
